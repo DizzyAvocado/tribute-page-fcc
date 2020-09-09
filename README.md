@@ -1,0 +1,1 @@
+This is a tribute page project for the Responsive Web Design Curriculum from FreeCodeCamp.
