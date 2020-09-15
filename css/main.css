@@ -8,10 +8,62 @@ body {
     font-size: 1.6rem;
     line-height: 1.75;
     text-align: center;
-    margin: 0;
+    margin: 2rem;
+}
+
+#main {
+    margin: 30px 2rem;
 }
 
 strong {
     font-family: 'Merriweather-bold', serif;
     font-weight: 700;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1080px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 1rem auto;
+    }
+    #main {
+        margin: 3rem 1rem;
+    }
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.25;
+}
+
+h4 {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+blockquote {
+    margin: 5rem 12rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+a {
+    color: #477ca7;
+}
+a:visited {
+    color: #74638f;
+}
+
+ul {
+    text-align: left;
 }
