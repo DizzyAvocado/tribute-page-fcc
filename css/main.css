@@ -8,11 +8,21 @@ body {
     font-size: 1.6rem;
     line-height: 1.75;
     text-align: center;
-    margin: 2rem;
+    color: #35281d;
 }
 
 #main {
     margin: 30px 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    background: #edf7f6;
+}
+
+img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3185fc;
+    border-radius: 5px;
 }
 
 strong {
@@ -23,6 +33,10 @@ strong {
 h1 {
     font-size: 4.5rem;
     margin-bottom: 0;
+    background: #3185fc;
+    color: #edf7f6;
+    padding: 4rem;
+    border-radius: 5px;
 }
 
 @media (max-width: 1080px) {
@@ -44,6 +58,10 @@ h1 {
 h3 {
     font-size: 3rem;
     line-height: 1.25;
+    padding: 3rem;
+    background: #3185fc;
+    color: #edf7f6;
+    border-radius: 5px;
 }
 
 h4 {
@@ -54,8 +72,13 @@ h4 {
 }
 blockquote {
     margin: 5rem 12rem;
-    font-size: 2rem;
+    font-weight: 300;
+    font-size: 2.5rem;
     font-style: italic;
+    padding: 3rem;
+    background: #3185fc;
+    color: #edf7f6;
+    border-radius: 5px;
 }
 a {
     color: #477ca7;
